@@ -1,0 +1,53 @@
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(246,101,101,1) 0%, rgba(252,179,69,1) 52%);
+    font-size: larger;
+    font-family: math;
+    text-align: center;
+    background-color: lavender;
+    text-decoration-color: darkturquoise;
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+#tarea{
+    font-size: large;
+    font-family: system-ui;
+    border-radius: 1.5rem;
+
+}
+.button{
+    display: flow;
+    margin: 1rem 3rem 0 3rem;
+    padding: 0.7rem;
+    font-size: larger;
+    font-family: math;
+    text-align: center;
+    background-color: lavender;
+    width: -webkit-fill-available;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.lista-lateral{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+    font-size: larger;
+}
+
+.error{
+    background: palevioletred;
+    font-size: x-large;
+    font-style: italic;
+}
+.delete{
+    font-size: x-large;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
